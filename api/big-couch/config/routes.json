@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/big-couch",
+      "handler": "big-couch.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/big-couch",
+      "handler": "big-couch.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/big-couch",
+      "handler": "big-couch.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
