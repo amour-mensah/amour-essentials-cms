@@ -27,7 +27,7 @@
     },
     "feedback": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "customer": {
       "model": "customer",
